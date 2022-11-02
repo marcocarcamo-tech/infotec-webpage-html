@@ -10,6 +10,14 @@ En mi caso utilicé las siguientes etiquetas:
 - <li>: esta etiqueta se usa para cada uno de los elementos dentro de nuestra lista.
 - <label>: sirve para poner texto a nuestros campos de input y los unimos con estos a través de la propiedad for.
 
+Etiquetas menos comunes
+
+- <cite>: esta etiqueta permite referenciar una fuente o el autor de un texto citado.
+- <acronym>: es una forma de definir o ampliar la explicación relativa a un grupo de palabras.
+- <iframe>: proviene de las palabras Inline Frame y es utilizado para incrustar contenido de páginas HTML externas como videos o mapas.
+
+
+
 1. Exposición del proyecto
 
 La página creada es sobre los mejores videojuegos de terror según las críticas. Acontinuación describiré los elementos empleados en la misma.
@@ -41,7 +49,7 @@ Al igual que en el video de repaso presentado, esta página presenta la informac
 ```html
 <table>
         <td class="texto">
-            <p>Resident Evil 2, la segunda entrega de la que posiblemente sea la mejor franquicia de videojuegos de terror de todos los tiempos, es un ejemplo de survival horror. Presenta mejoras generales respecto a su predecesor en casi todos los aspectos, con un claro enfoque en la exploración, los puzles y el combate.
+            <p>Resident Evil 2, la segunda entrega de la que <del>definitivamente</del> posiblemente sea la mejor franquicia de videojuegos de terror de todos los tiempos, es un ejemplo de survival horror. Presenta mejoras generales respecto a su predecesor en casi todos los aspectos, con un claro enfoque en la exploración, los puzles y el combate.
 
             Cuenta con personajes para dos jugadores, con caminos ramificados y argumentos únicos para cada uno. Quizá el mayor logro de este juego sea el de consolidar a Resident Evil no como un éxito puntual, sino como una franquicia continua que seguiría siendo de gran calidad durante décadas.</p>
         </td>
@@ -77,7 +85,6 @@ En el proyecto se un incluye un breve formulario que además hace uso de los ele
                 <label for="comentarios">Comentarios</label>
                 <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
             </fieldset>
-
             <input class="submit" type="submit" value="Enviar">
     </form>
 ```
