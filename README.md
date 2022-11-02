@@ -2,13 +2,15 @@
 
 Esta página corresponde con la tarea de infotec para el curso de html, la cual consiste en crear una página empleando los elementos enseñados en la unidad 1.
 
+El despliegue de la página está en: https://marcocarcamo-tech.github.io/infotec-webpage-html/src/
+
 1. El proyecto pide emplear al menos 3 etiquetas que no se hayan visto a lo largo de las lecciones.
 
 En mi caso utilicé las siguientes etiquetas:
 
-- <ul>: sirve para abrir una lista no ordenada.
-- <li>: esta etiqueta se usa para cada uno de los elementos dentro de nuestra lista.
-- <label>: sirve para poner texto a nuestros campos de input y los unimos con estos a través de la propiedad for.
+- ul: sirve para abrir una lista no ordenada.
+- li: esta etiqueta se usa para cada uno de los elementos dentro de nuestra lista.
+- label: sirve para poner texto a nuestros campos de input y los unimos con estos a través de la propiedad for.
 
 Etiquetas menos comunes
 
